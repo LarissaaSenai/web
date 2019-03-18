@@ -28,8 +28,8 @@ button{
 .row{
     width: 100%;
     display: block;
-    height: auto;
     overflow: auto;
+    height: auto;
 }
 .cold10,.cold9,.cold8,.cold7,.cold6,.cold5,.cold4,.cold3,.cold2,.cold1{
     display: inline-block;

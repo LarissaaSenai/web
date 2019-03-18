@@ -1,0 +1,31 @@
+@import "style.css";
+@import "estrutura.css";
+
+.border-right,.border-left{
+    display: block;
+    background-color: #00fd71;
+    height: 355px;
+    width: 48px;
+    transform: skewX(-9.2deg);
+    position: relative;
+}
+.border-right{
+    transform: skewX(-7.2deg);
+    margin-right: -36px;
+}
+.border-left{
+    transform: skewX(7.4deg);
+    margin-left: -22px;
+}
+#seja-parceiro{
+    position: absolute;
+    width: 30%;
+    height: 355px;
+}
+#seja-parceiro button{padding: 10px;margin: 23px 0px 23px 0px;}
+#seja-parceiro p {
+    
+}
+#seja-parceiro img{
+    margin-top: 36px;
+}
