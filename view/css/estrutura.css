@@ -1,0 +1,143 @@
+/* Cabeçalho */
+header{
+    width: 100%;
+    height: 400px;
+    padding-top: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../imagem/fundo.jpg);
+}
+nav{
+    width:100%;
+    height: 90px;
+    background-color: #1f9e24ed;
+}
+#segura_nav{
+    width:1300px;
+    height: inherit;
+    /* border:1px solid red; */
+    margin-left:auto;
+    margin-right: auto
+}
+#logo{
+    width:185px;
+    height: 170px;
+    /* border:1px solid black; */
+    float: left;
+    margin-top: -40px;
+}
+#logo img{
+    width:inherit;
+    height: inherit;
+    margin:auto auto;
+    display: block;
+}
+.segura_menu{
+    width:800px;
+    height:inherit;
+    /* border:1px solid black; */
+    float: left;
+    padding-top: 35px;
+}
+.segura_menu li{
+    float: left;
+    margin-left: 25px;
+    font-family: arial;
+    font-weight: bold;    
+    font-size: 16px;
+
+}
+.segura_login{
+    width:300px;
+    height: inherit;
+    /* border:1px solid black; */
+    float: left;
+    padding: 20px 10px;
+}
+#btnLogin{
+    border:none;
+    outline: none;
+    float: left;
+    color:black;
+    background: white;
+    width:100px;
+    height: 43px;
+    border-radius:10px;
+    margin-left: 15px;
+}
+#btnCadastro{
+    border:none;
+    outline: none;
+    float: left;
+    color:white;
+    background:  black;
+    width:130px;
+    height: 43px;
+    border-radius:10px;
+    margin-left: 25px;
+    
+}
+/* Fim cabeçalho */
+/* Rodape */
+footer{
+    background-color: #000000;
+    display:block;
+    min-height:100px;
+    height:auto;
+    padding-bottom: 10px;
+    overflow:auto;
+    color:white;
+}
+footer div[data-style="caixa-contatos"]{
+    padding-left: 29px;
+}
+footer div[data-style="caixa-contatos"] p{
+    margin-top: 16px;
+    margin-bottom:5px;
+}
+footer div[data-style="caixa-redes"] p,i{
+    color:white;
+    text-align:center;
+    font-size: 1em;
+    margin-top:7px;
+    margin-bottom:7px;
+}
+
+footer div[data-style="caixa-redes"] i{
+    font-size: 1.8em;
+    margin-left:4px;
+    margin-right:4px;
+}
+footer #frmEmail{
+    padding-top:35px;
+}
+footer #frmEmail button{
+    color:white;
+    font-size: 0.9em;
+    height:25px;
+    border-radius:0px 5px 5px 0px;
+}
+footer #frmEmail input{
+    border-color: #eee;
+    border-width: 1px;
+    height: 24px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+footer h3{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+footer .logo img{
+    display: block;
+    border-radius: 100px;
+    margin-bottom: 13px;
+    margin-top: 13px;
+}
+[data-style="naveguesite"] div{
+   padding: 3px;
+}
+
+/* Fim do Rodape */
