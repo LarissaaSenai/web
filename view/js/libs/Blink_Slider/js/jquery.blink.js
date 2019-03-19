@@ -5,11 +5,11 @@ Author: Fernando Mercadal https://fermercadal.github.io
 jQuery.fn.blink = function(options) {
   var config = {
     speedIn: 200,
-    speedOut: 100,
-    viewTime: 6000,
+    speedOut: 300,
+    viewTime: 4000,
     items: true,
     navigation: true,
-    prevText: '◄ ',
+    prevText: '◄',
     nextText: ' ►'
   }
   jQuery.extend(config, options);
@@ -80,8 +80,8 @@ jQuery.fn.blink = function(options) {
     }
     /* Add Navigation */
     if(config.navigation) {
-      /*$('#blink-control').prepend('<button class="button" id="prev">' + config.prevText + '</button>')
-      $('#blink-control').append('<button class="button" id="next">' + config.nextText + '</button>')*/
+      $('#blink-control').prepend('<button class="button" id="prev">' + config.prevText + '</button>')
+      $('#blink-control').append('<button class="button" id="next">' + config.nextText + '</button>')
       /* Next button */
       $('#next').click(function(){
         clearInterval(blinkLoop);

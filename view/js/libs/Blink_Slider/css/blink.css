@@ -1,3 +1,7 @@
+body {
+  background-color: #fefefe;
+  color: #222222; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
 
 .contenedor {
   width: 100%;
@@ -5,7 +9,6 @@
 }
 
 .blink-slider {
-  overflow:auto;
   position: relative;
   width: 100%;
   height: auto;
@@ -29,20 +32,20 @@
 }
 
 .blink-view .viewSlide img.fullImg {
-  width: 100%; height: auto;
+  width: 100%;
+  /* height: auto; */
 }
 
 .blink-control {
-  position: absolute;
-  right: 20px; bottom: 20px;
+  /* position: absolute;
+  right: 20px; bottom: 20px; */
   position: relative;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
   margin-top: -50px;
-  width: 100%;
-  z-index: 5;
+  z-index: 999;
 }
 
 .blink-control .button {
