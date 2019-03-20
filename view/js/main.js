@@ -13,3 +13,23 @@ window.onresize = function(){// Evento de redimendionar a tela
     gridAnuncioVenda();
 } 
 gridAnuncioVenda();
+
+
+
+/* Função de Import */
+function include(file_path){
+    return new Promise(function(resolve,reject){
+      try{
+         var j = document.createElement("script");
+         j.type = "text/javascript";
+         j.async = false;
+         j.onload = function(){
+           resolve();  
+         };
+         j.src = file_path;
+         document.head.appendChild(j);
+      }catch(e){
+          reject(e);
+      }
+    })
+}
