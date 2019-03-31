@@ -1,26 +1,42 @@
 @import "style.css";
 @import "estrutura.css";
 
+
+
 .border-right,.border-left{
     display: block;
     background-color: white;
-    height: 355px;
+    height: 356px;
     width: 48px;
     transform: skewX(-9.2deg);
     position: relative;
 }
 .border-right{
-    transform: skewX(-7.2deg);
+    transform: skewX(-6.2deg);
     margin-right: -41px;
 }
 .border-left{
     transform: skewX(7.4deg);
     margin-left: -23px;
 }
+/* Painel imagem > conteudo < imagem */
+#painel-seja{height: 360px;width: 100%;display: block;overflow: auto;}
+#painel-seja .imagem{width: 35%;display: inline-block;}
+#painel-seja .conteudo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 29%;
+    text-align: center;
+    display: inline-block;
+}
 #seja-parceiro{
     position: absolute;
     width: 30%;
     height: 355px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    text-align: center;
     z-index: 10;
 }
 #seja-parceiro button{padding: 10px;margin: 23px 0px 23px 0px;}
@@ -66,17 +82,34 @@
     margin-left: 4px;
     max-width: 126px;
 }
-.beneficio{top: 0;padding-top: 15px;padding-bottom: 2px;margin-bottom: 15px;margin-top: 19px;border: 1px solid #eee;width: 255px;border-radius: 8px;height: 275px;}
+.beneficio{
+    top: 0;
+    padding-top: 15px;
+    padding-bottom: 2px;
+    margin-bottom: 15px;
+    margin-top: 19px;
+    margin-left:10px;
+    margin-right:10px;
+    border: 1px solid #eee;
+    width: 255px;
+    border-radius: 8px;
+    display: inline-block;
+    height: 275px;
+    text-align:center;
+}
 .beneficio .img{
     background-color: #000;
-    max-width: 220px;
+    max-width: 225px;
     height: 138px;
     overflow: hidden;
     display: flex;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 .beneficio .img img{
     max-width: 218px;
-    /* margin-top: 3px; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -94,4 +127,8 @@
 }
 #beficiosBox{
     width: 1200px;
+    text-align:center;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }

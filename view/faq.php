@@ -109,7 +109,7 @@
                                 Lorem ipsum dolor sit amet, consectetur 
                                 adipiscing elit. Nunc maximus, nulla ut </p>
                             </div>
-                            <img src="imagem/icones/seta_preta.png" alt="seta" onclick="mostrar_mais()">
+                            <img src="imagem/icones/seta_preta.png" alt="seta" onclick="mostrar_mais(this)">
                         </div>
                         <div class="linha_perguntas">
                             <div class="segura_perguntas">
@@ -121,7 +121,7 @@
                                 Lorem ipsum dolor sit amet, consectetur 
                                 adipiscing elit. Nunc maximus, nulla ut </p>
                             </div>
-                            <img src="imagem/icones/seta_preta.png" alt="seta">
+                            <img src="imagem/icones/seta_preta.png" alt="seta" onclick="mostrar_mais(this)">
                         </div>
                         <div class="linha_perguntas">
                             <div class="segura_perguntas">
@@ -133,7 +133,7 @@
                                 Lorem ipsum dolor sit amet, consectetur 
                                 adipiscing elit. Nunc maximus, nulla ut </p>
                             </div>
-                            <img src="imagem/icones/seta_preta.png" alt="seta">
+                            <img src="imagem/icones/seta_preta.png" alt="seta" onclick="mostrar_mais(this)">
                         </div>
                         <div class="linha_perguntas">
                             <div class="segura_perguntas">
@@ -145,7 +145,7 @@
                                 Lorem ipsum dolor sit amet, consectetur 
                                 adipiscing elit. Nunc maximus, nulla ut </p>
                             </div>
-                            <img src="imagem/icones/seta_preta.png" alt="seta">
+                            <img src="imagem/icones/seta_preta.png" alt="seta" onclick="mostrar_mais(this)">
                         </div>
                         <div class="linha_perguntas ">
                             <div class="segura_perguntas">
@@ -157,7 +157,7 @@
                                 Lorem ipsum dolor sit amet, consectetur 
                                 adipiscing elit. Nunc maximus, nulla ut </p>
                             </div>
-                            <img src="imagem/icones/seta_preta.png" alt="seta">
+                            <img src="imagem/icones/seta_preta.png" alt="seta" onclick="mostrar_mais(this)">
                         </div>
                         
                     </div>

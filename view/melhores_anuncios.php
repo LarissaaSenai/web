@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Mob'Share-Home</title>
         <link rel="stylesheet" type="text/css" media="screen" href="css/melhores_anuncios.css"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     </head>
     <body>
         <div id="principal">
@@ -51,33 +52,34 @@
                 </div>
             </header>
             <div id="conteudo">
-                <div data-model="legend"> Melhores Anuncios</div>
-                <form role="search">
-                    <div class="row">
-                        <div data-model="caixa-pesquisa" class="center">
+                
+                <div class="legend">Melhores Anuncios</div>
+                <form id="pesquisa">
+                    <div>
+                        <div id="caixa-pesquisa" class="center">
                             <input type="search" class="cold10 esquerda" id="txtPesquisa" name="txtPesquisa">
                             <i class="fas fa-search esquerda"></i>
                         </div>
                     </div>
                 </form>
-                <div data-model="AnunciosBox">
+                <div id="AnunciosBox" class="action-animated">
                     <div class="anuncio">
                         <div class="img">
                             <img alt="carro" src="imagem/possivelcarro.jpg">
                         </div>
                         <div class="titulo"> Corça </div>
                         <div class="desc">
-                            <div data-meta>
-                                <label>Nome:</label>
-                                <label>Gilberto</label>
+                            <div class="anuncio_dado">
+                                <label class="anuncio_atributo">Nome:</label>
+                                <label class="anuncio_valor">Gilberto</label>
                             </div>
-                            <div data-meta>
-                                <label>Periodo:</label>
-                                <label> 10:00 - 16:30 </label>
+                            <div class="anuncio_dado">
+                                <label class="anuncio_atributo">Periodo:</label>
+                                <label class="anuncio_valor"> 10:00 - 16:30 </label>
                             </div>
-                            <div data-meta>
-                                <label> Valor:</label>
-                                <label> R$ 22,00 </label>
+                            <div class="anuncio_dado">
+                                <label class="anuncio_atributo"> Valor:</label>
+                                <label class="anuncio_valor"> R$ 22,00 </label>
                             </div>
                         </div>
                         <button onclick="visualizar()">Visualizar </button>
@@ -88,38 +90,17 @@
                         </div>
                         <div class="titulo"> Corça </div>
                         <div class="desc">
-                            <div data-meta>
-                                <label>Nome:</label>
-                                <label>Gilberto</label>
+                            <div class="anuncio_dado">
+                                <label class="anuncio_atributo">Nome:</label>
+                                <label class="anuncio_valor">Lucas</label>
                             </div>
-                            <div data-meta>
-                                <label>Periodo:</label>
-                                <label> 10:00 - 16:30 </label>
+                            <div class="anuncio_dado">
+                                <label class="anuncio_atributo">Periodo:</label>
+                                <label class="anuncio_valor"> 16:00 - 20:30 </label>
                             </div>
-                            <div data-meta>
-                                <label> Valor:</label>
-                                <label> R$ 22,00 </label>
-                            </div>
-                        </div>
-                        <button onclick="visualizar()">Visualizar </button>
-                    </div>
-                    <div class="anuncio">
-                        <div class="img">
-                            <img alt="carro" src="imagem/possivelcarro.jpg">
-                        </div>
-                        <div class="titulo"> Corça </div>
-                        <div class="desc">
-                            <div data-meta>
-                                <label>Nome:</label>
-                                <label>Gilberto</label>
-                            </div>
-                            <div data-meta>
-                                <label>Periodo:</label>
-                                <label> 10:00 - 16:30 </label>
-                            </div>
-                            <div data-meta>
-                                <label> Valor:</label>
-                                <label> R$ 22,00 </label>
+                            <div class="anuncio_dado">
+                                <label class="anuncio_atributo"> Valor:</label>
+                                <label class="anuncio_valor"> R$ 29,00 </label>
                             </div>
                         </div>
                         <button onclick="visualizar()">Visualizar </button>
@@ -130,38 +111,17 @@
                         </div>
                         <div class="titulo"> Corça </div>
                         <div class="desc">
-                            <div data-meta>
-                                <label>Nome:</label>
-                                <label>Gilberto</label>
+                            <div class="anuncio_dado">
+                                <label class="anuncio_atributo">Nome:</label>
+                                <label class="anuncio_valor">Claudio</label>
                             </div>
-                            <div data-meta>
-                                <label>Periodo:</label>
-                                <label> 10:00 - 16:30 </label>
+                            <div class="anuncio_dado">
+                                <label class="anuncio_atributo">Periodo:</label>
+                                <label class="anuncio_valor"> 10:00 - 16:30 </label>
                             </div>
-                            <div data-meta>
-                                <label> Valor:</label>
-                                <label> R$ 22,00 </label>
-                            </div>
-                        </div>
-                        <button onclick="visualizar()">Visualizar </button>
-                    </div>
-                    <div class="anuncio">
-                        <div class="img">
-                            <img alt="carro" src="imagem/possivelcarro.jpg">
-                        </div>
-                        <div class="titulo"> Corça </div>
-                        <div class="desc">
-                            <div data-meta>
-                                <label>Nome:</label>
-                                <label>Gilberto</label>
-                            </div>
-                            <div data-meta>
-                                <label>Periodo:</label>
-                                <label> 10:00 - 16:30 </label>
-                            </div>
-                            <div data-meta>
-                                <label> Valor:</label>
-                                <label> R$ 22,00 </label>
+                            <div class="anuncio_dado">
+                                <label class="anuncio_atributo"> Valor:</label>
+                                <label class="anuncio_valor"> R$ 10,00 </label>
                             </div>
                         </div>
                         <button onclick="visualizar()">Visualizar </button>
@@ -172,24 +132,65 @@
                         </div>
                         <div class="titulo"> Corça </div>
                         <div class="desc">
-                            <div data-meta>
-                                <label>Nome:</label>
-                                <label>Gilberto</label>
+                            <div class="anuncio_dado">
+                                <label class="anuncio_atributo">Nome:</label>
+                                <label class="anuncio_valor">Gabriel</label>
                             </div>
-                            <div data-meta>
-                                <label>Periodo:</label>
-                                <label> 10:00 - 16:30 </label>
+                            <div class="anuncio_dado">
+                                <label class="anuncio_atributo">Periodo:</label>
+                                <label class="anuncio_valor"> 07:00 - 14:30 </label>
                             </div>
-                            <div data-meta>
-                                <label> Valor:</label>
-                                <label> R$ 22,00 </label>
+                            <div class="anuncio_dado">
+                                <label class="anuncio_atributo"> Valor:</label>
+                                <label class="anuncio_valor"> R$ 23,00 </label>
                             </div>
                         </div>
                         <button onclick="visualizar()">Visualizar </button>
                     </div>
-                    
+                    <div class="anuncio">
+                        <div class="img">
+                            <img alt="carro" src="imagem/possivelcarro.jpg">
+                        </div>
+                        <div class="titulo"> Corça </div>
+                        <div class="desc">
+                            <div class="anuncio_dado">
+                                <label class="anuncio_atributo">Nome:</label>
+                                <label class="anuncio_valor">Matheus</label>
+                            </div>
+                            <div class="anuncio_dado">
+                                <label class="anuncio_atributo">Periodo:</label>
+                                <label class="anuncio_valor"> 19:00 - 22:30 </label>
+                            </div>
+                            <div class="anuncio_dado">
+                                <label class="anuncio_atributo"> Valor:</label>
+                                <label class="anuncio_valor"> R$ 32,00 </label>
+                            </div>
+                        </div>
+                        <button onclick="visualizar()">Visualizar </button>
+                    </div>
+                    <div class="anuncio">
+                        <div class="img">
+                            <img alt="carro" src="imagem/possivelcarro.jpg">
+                        </div>
+                        <div class="titulo"> Corça </div>
+                        <div class="desc">
+                            <div class="anuncio_dado">
+                                <label class="anuncio_atributo">Nome:</label>
+                                <label class="anuncio_valor">Rafael</label>
+                            </div>
+                            <div class="anuncio_dado">
+                                <label class="anuncio_atributo">Periodo:</label>
+                                <label class="anuncio_valor"> 11:00 - 15:30 </label>
+                            </div>
+                            <div class="anuncio_dado">
+                                <label class="anuncio_atributo"> Valor:</label>
+                                <label class="anuncio_valor"> R$ 12,00 </label>
+                            </div>
+                        </div>
+                        <button onclick="visualizar()">Visualizar </button>
+                    </div>
                 </div>
-                <div data-model="paginate">
+                <div id="paginate">
                     <div class="paginate-prev">
                         <i class="fas fa-chevron-left"></i>
                     </div>
@@ -203,6 +204,7 @@
                         <i class="fas fa-chevron-right"></i>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     </div>

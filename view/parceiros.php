@@ -53,14 +53,14 @@
             </div>
         </header>
         <div id="conteudo">
-
-             <div class="row" style=" height: 360px;">
-                <div class="cold4 esquerda">
+	    <!-- Painel  imagem > conteudo < imagem  -->
+             <div  id="painel-seja" style=" height: 360px;">
+                <div class="imagem esquerda">
                     <img src="imagem/bg-parceiros.jpg" style="height: 355px; width:100%;">
                 </div>
-                <div class="cold2 center" style="width: 29%;">
+                <div class="conteudo" >
                     <div class="esquerda border-left"></div>
-                    <div id="seja-parceiro" class="center" style="margin-top: 15px;">
+                    <div id="seja-parceiro">
                         <p>Lorem ipsum dolor sit amet, consectetur adi,suada nibh. Quisque placerat faucibus erat a sodales. Suspendisse condimentum vehicula dolor eu dapibus</p> 
                         <button>Quero ser um Parceiro</button>
                         <p>Lorem ipsum dolor sit amet, consectetur adi,suada nibh. Quisque placerat faucibus erat a sodales. Suspendisse condimentum vehicula dolor eu dapibus</p> 
@@ -68,127 +68,113 @@
                     </div>
                     <div class="direita border-right"></div>
                 </div>
-                <div class="cold4 direita">
+                <div class="imagem direita">
                     <img src="imagem/bg-usuario.jpg"  style="height: 355px; width:100%;">
                 </div>
 
              </div>
-             <div role="banner">
+             <div>
+                <!-- Slider  do tipo Blink -->
                 <link rel="stylesheet" href="js/libs/Blink_Slider/css/blink.css">
                 <script src="js/libs/Blink_Slider/js/jquery.blink.js"></script>
                 <section class="blink-slider" style="    overflow: hidden;    color: black;">
                     <div class="blink-view" id="blink">
+                      <!-- Quadro 1 -->
                       <div class="viewSlide">
                         <div class="painel" style="background-image:url('imagem/slider1.png');">
                             <div class="desc">
                                 <h2> Novos Parceiros </h2>
                                 <p> lorem ipsum sdasdsads  s asdsawssa ass dsa s</p>
-                                <div class="row">
+                                <div>
                                     <img src="imagem/comodo.png">
                                     <img src="imagem/ss.png">
                                     <img src="imagem/7ca63168605753eeecf23cd61c614de5.png">
                                 </div>
                             </div>
                         </div>
-
-                        <!--<img class="fullImg" src="imagem/slider1.png" style="    height: 562px;"/>-->
-                    </div>
-                        <div class="viewSlide">
-                            <div class="painel" style="background-image:url('imagem/slider3.jpg');">
-                                <div class="desc">
-                                    <h2> Programa de Parceria </h2>
-                                    <p>lorem ipsum sdasdsads  s asdsawssa ass dsa s</p>
-                                    <div class="row">
-                                        <img src="imagem/1c048d6612d553e8b4b1bda8502b6c3a.png">
-                                        <img src="imagem/46b0e33418abc420e5c11690d44edaf6.png">
-                                        <img src="imagem/7ca63168605753eeecf23cd61c614de5.png">
-                                    </div>
+                      </div>
+                      <!-- Quadro 2 -->
+                      <div class="viewSlide">
+                        <div class="painel" style="background-image:url('imagem/slider3.jpg');">
+                            <div class="desc">
+                                <h2> Programa de Parceria </h2>
+                                <p>lorem ipsum sdasdsads  s asdsawssa ass dsa s</p>
+                                <div>
+                                    <img src="imagem/1c048d6612d553e8b4b1bda8502b6c3a.png">
+                                    <img src="imagem/46b0e33418abc420e5c11690d44edaf6.png">
+                                    <img src="imagem/7ca63168605753eeecf23cd61c614de5.png">
                                 </div>
                             </div>
                         </div>
+                      </div>
                     </div>
                     <div class="blink-control" id="blink-control">
-
                     </div>
-                </section>
-                <script type="text/javascript">
-                    $(document).ready(function(){
-                        $("#blink").blink();
-                    });
-                </script>
+              </section>
+              <script type="text/javascript">
+                    //Iniciando o Slider
+                  $(document).ready(function(){
+                    $("#blink").blink();
+                  });
+              </script>
              </div>
-             <div id="beficiosBox" class="center">
-                 <div class="row center">
-                    <div class="cold3 center">
-                        <div class="beneficio center">
-                            <div class="img center">
-                                <img src="imagem/family.jpg">
-                            </div>
-                            <div class="titulo">Ferias</div>
-                            <div class="desc">
-                                lorem ipsum lacus vehicula faucibus tristique molestie mi, commodo 
-                            </div>
-                        </div>
+             <!-- Caixa Que Contem os beneficios -->
+             <div id="beficiosBox">
+                <div class="beneficio">
+                    <div class="img">
+                        <img src="imagem/family.jpg">
                     </div>
-                    <div class="cold3 center">
-                        <div class="beneficio center">
-                            <div class="img center">
-                                <img src="imagem/people-car2.jpg">
-                            </div>
-                            <div class="titulo">Seus Funcionarios</div>
-                            <div class="desc">
-                                lorem ipsum lacus vehicula faucibus tristique molestie mi, commodo 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cold3 center">
-                        <div class="beneficio center">
-                            <div class="img center">
-                                <img src="imagem/people-car.jpg">
-                            </div>
-                            <div class="titulo"> Descontos </div>
-                            <div class="desc">
-                                lorem ipsum lacus vehicula faucibus tristique molestie mi, commodo 
-                            </div>
-                        </div>
+                    <div class="titulo">Ferias</div>
+                    <div class="desc">
+                        lorem ipsum lacus vehicula faucibus tristique molestie mi, commodo 
                     </div>
                  </div>
-                 <div class="row center">
-                    <div class="cold3 center">
-                        <div class="beneficio center">
-                            <div class="img center">
-                                <img src="imagem/people-car3.jpg">
-                            </div>
-                            <div class="titulo"> Só o melhor </div>
-                            <div class="desc">
-                                lorem ipsum lacus vehicula faucibus tristique molestie mi, commodo 
-                            </div>
-                        </div>
+                 <div class="beneficio">
+                    <div class="img">
+                        <img src="imagem/people-car2.jpg">
                     </div>
-                    <div class="cold3 center">
-                        <div class="beneficio center">
-                            <div class="img center">
-                                <img src="imagem/people-car4.jpg">
-                            </div>
-                            <div class="titulo">Impressione Clientes</div>
-                            <div class="desc">
-                                lorem ipsum lacus vehicula faucibus tristique molestie mi, commodo 
-                            </div>
-                        </div>
+                    <div class="titulo">Seus Funcionarios</div>
+                    <div class="desc">
+                        lorem ipsum lacus vehicula faucibus tristique molestie mi, commodo 
                     </div>
-                    <div class="cold3 center">
-                        <div class="beneficio center">
-                            <div class="img center">
-                                <img src="imagem/people-car5.jpg">
-                            </div>
-                            <div class="titulo"> Locomoção definitiva </div>
-                            <div class="desc">
-                                lorem ipsum lacus vehicula faucibus tristique molestie mi, commodo 
-                            </div>
-                        </div>
+                  </div>
+                  <div class="beneficio">
+                    <div class="img">
+                        <img src="imagem/people-car.jpg">
                     </div>
-                 </div>
-             </div>
+                    <div class="titulo"> Descontos </div>
+                    <div class="desc">
+                        lorem ipsum lacus vehicula faucibus tristique molestie mi, commodo 
+                    </div>
+                  </div>
+                  <div class="beneficio">
+                    <div class="img">
+                        <img src="imagem/people-car3.jpg">
+                    </div>
+                    <div class="titulo"> Só o melhor </div>
+                    <div class="desc">
+                        lorem ipsum lacus vehicula faucibus tristique molestie mi, commodo 
+                    </div>
+                  </div>
+                  <div class="beneficio">
+                    <div class="img">
+                         <img src="imagem/people-car4.jpg">
+                    </div>
+                    <div class="titulo">Impressione Clientes</div>
+                    <div class="desc">
+                          lorem ipsum lacus vehicula faucibus tristique molestie mi, commodo 
+                    </div>
+                   </div>
+                   <div class="beneficio">
+                    <div class="img">
+                          <img src="imagem/people-car5.jpg">
+                    </div>
+                    <div class="titulo"> Locomoção definitiva </div>
+                    <div class="desc">
+                           lorem ipsum lacus vehicula faucibus tristique molestie mi, commodo 
+                    </div>
+                   </div>
+            
         </div>
     </div>
     <footer class="cor_site_padrao">

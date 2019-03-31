@@ -52,45 +52,46 @@
             </div>
         </header>
         <div id="conteudo">
-            <p class="center cold7 termos-titulo"> Abaixo, você encontra um resumo das principais regras do uso
+            <p class="termos-titulo"> Abaixo, você encontra um resumo das principais regras do uso
             do contrato com a MobShare, para conseguir ler rapidinho e entender
             o mais importante. </p>
-            <div class="row">
-                <div class="center termo-destaque">
-                    <div class="image cold2 esquerda">
+            <!-- Termos principais da pagina -->
+            <div>
+                <div class="termo-destaque">
+                    <div class="image">
                         <img src="imagem/selo4.png" alt="sdssd" width="92">
                     </div>
-                    <div class="number cold1 esquerda">
+                    <div class="number">
                         1
                     </div>
-                    <div class="desc cold8 esquerda">
+                    <div class="desc">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque scelerisque enim et orci lobortis, vel posuere est aliquam. Aliquam vel erat nisi. Proin elementum auctor purus, vel pharetra est venenatis tincidunt. Mauris imperdiet arcu vitae ex malesuada fermentum. Maecenas scelerisque ligula nunc, nec blandit leo porta sit amet.
                     </div>
                 </div>
-                <div class="center termo-destaque">
-                    <div class="image cold2 esquerda">
+                <div class="termo-destaque">
+                    <div class="image">
                         <i class="fas fa-car"></i>
                     </div>
                     <div class="number cold1 esquerda">
                         2
                     </div>
-                    <div class="desc cold8 esquerda">
+                    <div class="desc">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque scelerisque enim et orci lobortis, vel posuere est aliquam. Aliquam vel erat nisi. Proin elementum auctor purus, vel pharetra est venenatis tincidunt. Mauris imperdiet arcu vitae ex malesuada fermentum. Maecenas scelerisque ligula nunc, nec blandit leo porta sit amet.
                     </div>
                 </div>
-                <div class="center termo-destaque">
-                    <div class="image cold2 esquerda">
+                <div class="termo-destaque">
+                    <div class="image">
                         <i class="fas fa-bicycle"></i>
                     </div>
-                    <div class="number cold1 esquerda">
+                    <div class="number">
                         3
                     </div>
-                    <div class="desc cold8 esquerda">
+                    <div class="desc">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque scelerisque enim et orci lobortis, vel posuere est aliquam. Aliquam vel erat nisi. Proin elementum auctor purus, vel pharetra est venenatis tincidunt. Mauris imperdiet arcu vitae ex malesuada fermentum. Maecenas scelerisque ligula nunc, nec blandit leo porta sit amet.
                     </div>
                 </div>
             </div>
-            <div id="termos-documento" class="center">
+            <div id="termos-documento">
                 <h2> Termos de uso MobShare</h2>
                 <div class="desc">
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque scelerisque enim et orci lobortis, vel posuere est aliquam. Aliquam vel erat nisi. Proin elementum auctor purus, vel pharetra est venenatis tincidunt. Mauris imperdiet arcu vitae ex malesuada fermentum. Maecenas scelerisque ligula nunc, nec blandit leo porta sit amet. Nulla malesuada justo non tellus mattis, at aliquet ipsum condimentum.</p>

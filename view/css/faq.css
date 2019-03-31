@@ -103,7 +103,7 @@
     background-color: #000000;
 }
 .linha_perguntas{
-    width:999px;
+    width: 999px;
     height: auto;
     min-height: 120px;
     border-top:2px solid black;
@@ -132,6 +132,8 @@
     /* line-height: 25px; */
 }
 .segura_perguntas p{
+    height: 47px;
+    overflow-y: hidden;
     font-family: Roboto;
     font-weight: bold;
     font-size: 15px;

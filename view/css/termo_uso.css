@@ -7,12 +7,18 @@
     font-size: 1.2em;
     text-align: justify;
     margin-bottom: 34px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top:15px;
+    width: 65%;
+    font-family: "Roboto";
+    color: black;
+    font-weight: 900;
 }
-
-.termo-destaque{max-width: 70%;height: auto;display: block;overflow: auto;margin-bottom: 6px;margin-top: 21px;}
+.termo-destaque{max-width: 70%;height: auto;display: block;overflow: auto;margin-bottom: 6px;margin-top: 21px;margin-left: auto;margin-right: auto;text-align: center;}
 .termo-destaque .image{
-    
+    float: left;
+    width: 15%;
 }
 .termo-destaque .image img{
     width:92px;
@@ -23,18 +29,24 @@
 }
 .termo-destaque .number{
     border: solid 1px;
-    /* height: 22px; */
-    width: 27px;
+    height: auto;
+    width: auto;
     text-align: center;
     border-radius: 18px;
-    padding-top: 5px;
+    border-radius: 100px;
+    padding: 3px 9px 2px 9px;
     margin-right: 5px;
     background-color: #1a9424;
     color: #f7f7f7;
     font-size: 1.1em;
+    float: left;
+    font-family: "OpenSans-bold";
 }
 .termo-destaque .desc{
     text-align: justify;
+    font-family: Arial;
+    float: left;
+    width: 75%;
 }
 #termos-documento{
     width: 59%;
@@ -47,9 +59,15 @@
     padding-right: 15px;
     margin-bottom: 25px;
     margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 #termos-documento h2{
-    text-align: initial;
+    padding-bottom: 8px;
+    padding-top: 3px;
+    text-align: center;
+    font-family: "Roboto";
 }
 #termos-documento .desc{
     text-align: justify;
